@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Poll Me | Polls List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+    {% block custom_css %}{% endblock custom_css %}
+
+</head>
+
+<body>
+    {% include 'includes/navbar.html' %}
+
+    {% block content %}
+
+    {% endblock content %}
+<br>
+<br>
+</div>
+  <footer class="footer-area section-gap fixed-bottom" style="background:#D3D3D3;color:black">
+  <br>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+					<h4>About Us</h4>
+          <p>Aryansh Omray<br>Aditya Patidar<br>Harirai Mahajan</p>
+          <a class="navbar-brand logo_h d-none d-xl-block" href="index.html"><img src='{static "img/logo.png" %}' alt=""></a>
+				</div>
+				<div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+					<h4>Contact Info</h4>
+					<ul>
+						<li><a href="tel:+91-6260081410">Phone: +91-6260081410</a></li>
+						<li><a href="mailto:aryanshomray.cse18@iitbhu.ac.in">Email: aryanshomray.cse18@iitbhu.ac.in</a></li>
+						<li><a href="mailto:adityapatidar.cse18@iitbhu.ac.in">adityapatidar.cse18@iitbhu.ac.in</a></li>
+						<li><a href="mailto:hariraimahajan.cse18@iitbhu.ac.in">hariraimahajan.cse18@iitbhu.ac.in</a></li>
+					</ul>
+				</div>
+				
+				<div class="offset-xl-1 col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+					<h4>Information</h4>
+          <p>This portal was made as a project for the ITW-II course.</p>
+          <div class="form-wrap" id="mc_embed_signup">
+            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+            method="get">
+              <div class="input-group">
+                <div class="input-group-append">
+                </div>
+              </div>
+              <div style="position: absolute; left: -5000px;">
+								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+							</div>
+
+							<div class="info"></div>
+            </form>
+          </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+  </div>
+    <!-- All javascript files goes under here    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<script src='{% static "vendors/jquery/jquery-3.2.1.min.js" %}'></script>
+<script src='{% static "vendors/bootstrap/bootstrap.bundle.min.js" %}'></script>
+<script src='{% static "vendors/owl-carousel/owl.carousel.min.js" %}'></script>
+<script src='{% static "js/jquery.ajaxchimp.min.js" %}'></script>
+<script src='{% static "js/mail-script.js" %}'></script>
+<script src='{% static "js/main.js" %}'></script>
+
+</body>
+
+</html>
